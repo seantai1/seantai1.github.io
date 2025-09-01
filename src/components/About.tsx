@@ -4,7 +4,7 @@ const About = () => {
       <div>
         <h1 className="text-4xl font-bold mb-4 text-foreground">sean tai</h1>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          i am a computer science & data science student at uc berkeley, developer, and a huge fan of daily life
+          i'm a student at uc berkeley, developer, and a huge fan of daily life
         </p>
       </div>
 
