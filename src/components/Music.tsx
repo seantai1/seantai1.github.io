@@ -10,8 +10,7 @@ const Music = () => {
 
       <div className="space-y-6">
         <p className="text-muted-foreground leading-relaxed">
-          music is one of the most engaging forms of art and storytelling. discovering
-          artists and attending live shows, this is just a snippet
+          discovering artists and attending live shows, this is just a snippet
         </p>
 
         <div className="space-y-8">
