@@ -150,7 +150,7 @@ const CV = () => {
           <p className="text-muted-foreground">
             For a detailed PDF version of my CV,{" "}
             <a
-              href="/Sean_Tai_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Sean_Tai_Resume.pdf`}
               target="_blank"
               rel="noreferrer noopener"
               className="text-accent hover:underline transition-colors"

@@ -5,9 +5,10 @@ const Jirachi = () => {
 
   if (!visible) return null;
 
+  const base = import.meta.env.BASE_URL || "/";
   return (
     <img
-      src="/jirachi.gif"
+      src={`${base}jirachi.gif`}
       alt="Jirachi pixel sprite"
       className="absolute top-10 right-10 z-50 w-24 md:w-32 select-none pointer-events-none drop-shadow-md"
       onError={() => setVisible(false)}
