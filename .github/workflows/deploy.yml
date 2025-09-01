@@ -30,10 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build site with base path
-        run: |
-          REPO_NAME=${GITHUB_REPOSITORY#*/}
-          npm run build -- --base=/${REPO_NAME}/
+      - name: Build site
+        run: npm run build
 
       - name: Add SPA fallback (404.html)
         run: cp dist/index.html dist/404.html
@@ -53,4 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
