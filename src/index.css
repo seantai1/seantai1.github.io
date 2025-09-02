@@ -8,36 +8,36 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dialga-inspired dark steel + cyan palette with high contrast */
-    --background: 222 45% 10%;
+    /* Dialga-inspired steel blue with airy, personality-forward vibe */
+    --background: 220 35% 14%; /* lighter than before for warmth */
     --foreground: 220 40% 98%;
 
-    --card: 222 40% 14%;
+    --card: 220 32% 18%;
     --card-foreground: 220 40% 98%;
 
-    --popover: 222 40% 14%;
+    --popover: 220 32% 18%;
     --popover-foreground: 220 40% 98%;
 
     --primary: 220 40% 98%;
-    --primary-foreground: 222 45% 10%;
+    --primary-foreground: 220 35% 14%;
 
-    --secondary: 222 30% 18%;
+    --secondary: 220 25% 22%;
     --secondary-foreground: 220 40% 98%;
 
-    --muted: 222 25% 20%;
-    --muted-foreground: 215 15% 72%;
+    --muted: 220 20% 24%;
+    --muted-foreground: 215 15% 76%;
 
-    --accent: 195 85% 55%; /* bright cyan */
-    --accent-foreground: 222 45% 10%;
+    --accent: 195 88% 62%; /* electric cyan */
+    --accent-foreground: 220 35% 14%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 222 28% 22%;
-    --input: 222 28% 22%;
-    --ring: 195 85% 55%;
-
-    --radius: 0.5rem;
+    --border: 220 22% 26%;
+    --input: 220 22% 26%;
+    --ring: 195 88% 62%;
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -57,33 +57,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222 45% 8%;
+    --background: 220 35% 12%;
     --foreground: 220 40% 98%;
 
-    --card: 222 40% 12%;
+    --card: 220 32% 16%;
     --card-foreground: 220 40% 98%;
 
-    --popover: 222 40% 12%;
+    --popover: 220 32% 16%;
     --popover-foreground: 220 40% 98%;
 
     --primary: 220 40% 98%;
-    --primary-foreground: 222 45% 8%;
+    --primary-foreground: 220 35% 12%;
 
-    --secondary: 222 30% 16%;
+    --secondary: 220 25% 20%;
     --secondary-foreground: 220 40% 98%;
 
-    --muted: 222 25% 18%;
-    --muted-foreground: 215 15% 74%;
+    --muted: 220 20% 22%;
+    --muted-foreground: 215 15% 78%;
 
-    --accent: 195 85% 55%;
-    --accent-foreground: 222 45% 8%;
+    --accent: 195 88% 62%;
+    --accent-foreground: 220 35% 12%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 222 28% 20%;
-    --input: 222 28% 20%;
-    --ring: 195 85% 55%;
+    --border: 220 22% 24%;
+    --input: 220 22% 24%;
+    --ring: 195 88% 62%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -101,10 +101,27 @@ All colors MUST be HSL.
   }
 
   body {
+    /* Softer body typography and subtle background gradients for personality */
+    /* @apply text-foreground font-sans antialiased text-[15px] md:text-[16px]; */
     @apply bg-background text-foreground font-mono text-[15px] md:text-[16px];
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(900px 600px at 85% 10%, hsl(195 88% 22% / 0.35), transparent 60%),
+      radial-gradient(800px 500px at 10% 85%, hsl(220 45% 28% / 0.20), transparent 60%);
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-mono;
+    /* @apply font-sans tracking-tight;
+     */
+  }
+
+  a {
+    @apply text-accent underline-offset-4 hover:underline transition-colors;
+  }
+
+  ::selection {
+    background: hsl(var(--accent) / 0.25);
+    color: hsl(var(--foreground));
   }
 }

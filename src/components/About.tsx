@@ -4,22 +4,18 @@ const About = () => {
       <div>
         <h1 className="text-4xl font-bold mb-4 text-foreground">sean tai</h1>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          i'm a student at uc berkeley, developer, and a huge fan of daily life
+          i'm a computer science & data science student at uc berkeley, developer, and a huge fan of daily life
         </p>
       </div>
 
       <div className="space-y-6">
-        <p className="text-muted-foreground leading-relaxed">
-          i am pursuing my bachelor's in computer science and data science at uc berkeley,
-          and recently concluded my internship at AWS
-        </p>
-
-        <p className="text-muted-foreground leading-relaxed">
-          this website offers glimpses of my identity, limited to what I find worth writing down.
-        </p>
 
         <p className="text-muted-foreground leading-relaxed">
           i have an interest in applied ml, generative ai, ai safety & alignment, and building fun things
+        </p>
+
+        <p className="text-muted-foreground leading-relaxed">
+          this website offers a glance of my professional identity, limited to what I find worth writing down.
         </p>
       </div>
 
