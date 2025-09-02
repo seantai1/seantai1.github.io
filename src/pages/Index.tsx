@@ -23,7 +23,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="relative max-w-3xl mx-auto px-8 md:px-12 py-16 md:py-20">
+      <div className="relative max-w-4xl mx-auto px-6 py-12 md:py-20">
         <Dialga />
         <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
         <main>{renderContent()}</main>
