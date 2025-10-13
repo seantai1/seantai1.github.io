@@ -21,7 +21,7 @@ const Music = () => {
               <div className="space-y-2">
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/4Ozk6GESL4KkJ0C1yXgDLf?utm_source=generator"
+                  src="https://open.spotify.com/embed/track/5wmBV7RrEDrEamTvCnuLxX?utm_source=generator"
                   width="100%"
                   height="80"
                   frameBorder="0"
