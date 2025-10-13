@@ -146,7 +146,7 @@ const CV = () => {
           </div>
         </section>
 
-        <section>
+        {/* <section>
           <p className="text-muted-foreground">
             For a detailed PDF version of my CV,{" "}
             <a
@@ -159,7 +159,7 @@ const CV = () => {
             </a>
             .
           </p>
-        </section>
+        </section> */}
       </div>
     </div>
   );
