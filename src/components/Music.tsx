@@ -21,7 +21,7 @@ const Music = () => {
               <div className="space-y-2">
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/5wmBV7RrEDrEamTvCnuLxX?utm_source=generator"
+                  src="https://open.spotify.com/embed/track/4tf04WrZTy60CawyvueIdK?utm_source=generator"
                   width="100%"
                   height="80"
                   frameBorder="0"
@@ -94,6 +94,20 @@ const Music = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-foreground">recent concerts</h3>
             <div className="space-y-3">
+              <div className="flex justify-between items-center p-3 bg-card rounded border border-border">
+                <div>
+                  <div className="font-medium text-foreground">knock2</div>
+                  <div className="text-sm text-muted-foreground">the midway</div>
+                </div>
+                <div className="text-sm text-muted-foreground">nov 2025</div>
+              </div>
+              <div className="flex justify-between items-center p-3 bg-card rounded border border-border">
+                <div>
+                  <div className="font-medium text-foreground">lorde</div>
+                  <div className="text-sm text-muted-foreground">the greek theatre</div>
+                </div>
+                <div className="text-sm text-muted-foreground">oct 2025</div>
+              </div>
               <div className="flex justify-between items-center p-3 bg-card rounded border border-border">
                 <div>
                   <div className="font-medium text-foreground">ethel cain</div>
