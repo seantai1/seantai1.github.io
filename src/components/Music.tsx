@@ -10,7 +10,7 @@ const Music = () => {
 
       <div className="space-y-6">
         <p className="text-muted-foreground leading-relaxed">
-          discovering artists and attending live shows, this is just a snippet
+          a snippet of my music taste!
         </p>
 
         <div className="space-y-8">
@@ -21,7 +21,7 @@ const Music = () => {
               <div className="space-y-2">
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/4tf04WrZTy60CawyvueIdK?utm_source=generator"
+                  src="https://open.spotify.com/embed/track/2Ud3deeqLAG988pfW0Kwcl?utm_source=generator"
                   width="100%"
                   height="80"
                   frameBorder="0"
@@ -41,7 +41,7 @@ const Music = () => {
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/2QtJA4gbwe1AcanB2p21aP?utm_source=generator"
+                  src="https://open.spotify.com/embed/track/0UOG0zUn7t8m8QcxfzR7AH?utm_source=generator" 
                   width="100%"
                   height="80"
                   frameBorder="0"
@@ -68,7 +68,7 @@ const Music = () => {
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/0PLhwCmQ7cC3ThRGPn3HxF?utm_source=generator"
+                  src="https://open.spotify.com/embed/track/1scaOnahzG7o8pfwfsL784?utm_source=generator"
                   width="100%"
                   height="80"
                   frameBorder="0"
@@ -104,7 +104,7 @@ const Music = () => {
               <div className="flex justify-between items-center p-3 bg-card rounded border border-border">
                 <div>
                   <div className="font-medium text-foreground">lorde</div>
-                  <div className="text-sm text-muted-foreground">the greek theatre</div>
+                  <div className="text-sm text-muted-foreground">greek theatre</div>
                 </div>
                 <div className="text-sm text-muted-foreground">oct 2025</div>
               </div>

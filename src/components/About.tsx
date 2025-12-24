@@ -11,7 +11,7 @@ const About = () => {
       <div className="space-y-6">
 
         <p className="text-muted-foreground leading-relaxed">
-          i have an interest in applied ml, generative ai, ai safety & alignment, and building fun things
+          i have an interest in anything under applied ml, generative ai, ai safety & alignment, and building fun things
         </p>
 
         <p className="text-muted-foreground leading-relaxed">
@@ -28,20 +28,26 @@ const About = () => {
           <div className="space-y-8">
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-accent mb-1">Today (Aug 2025)</div>
+              <div className="text-sm text-accent mb-1">Today (Dec 2025)</div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Continuing my studies
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                After a quick summer in Boston, I'm now back and
-                resparking my curiosity through
-                building and experimenting with AI.
+                learning! also experimenting & exploring new things.
               </p>
             </div>
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2025</div>
+              <div className="text-sm text-muted-foreground mb-1">2025 · Berkeley, CA</div>
+              <h3 className="text-lg font-medium text-foreground mb-1">
+                Researcher at Berkeley RDI working on agents for security
+              </h3>
+            </div>
+
+            <div className="pl-6 relative">
+              <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
+              <div className="text-sm text-muted-foreground mb-1">2025 · Boston, MA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Software Engineer Intern at Amazon Web Services {" "}
                 <a
@@ -57,7 +63,7 @@ const About = () => {
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2025</div>
+              <div className="text-sm text-muted-foreground mb-1">2025 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Contracted ML Research Engineer at Block working on {" "}
                 <a
@@ -73,7 +79,7 @@ const About = () => {
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2024</div>
+              <div className="text-sm text-muted-foreground mb-1">2024 · Remote</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Machine Learning Engineer Intern at{" "}
                 <a
@@ -89,7 +95,7 @@ const About = () => {
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2024</div>
+              <div className="text-sm text-muted-foreground mb-1">2024 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Software Engineer Intern at{" "}
                 <a
@@ -105,7 +111,7 @@ const About = () => {
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2022-2023</div>
+              <div className="text-sm text-muted-foreground mb-1">2022-2023 · Rocklin, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Coding Instructor
               </h3>
@@ -113,7 +119,7 @@ const About = () => {
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-muted-foreground mb-1">2022</div>
+              <div className="text-sm text-muted-foreground mb-1">2022 · Remote</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Research Intern at Stop AAPI Hate
               </h3>
@@ -137,15 +143,6 @@ const About = () => {
             className="text-accent hover:underline transition-colors"
           >
             linkedin
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.instagram.com/seann.tai/?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-accent hover:underline transition-colors"
-          >
-            instagram
           </a>
         </p>
       </div>
