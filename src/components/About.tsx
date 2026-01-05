@@ -11,7 +11,7 @@ const About = () => {
       <div className="space-y-6">
 
         <p className="text-muted-foreground leading-relaxed">
-          i have an interest in anything under applied ml, generative ai, ai safety & alignment, and building fun things
+          i have an interest in anything under ai safety & alignment, applied ml, generative ai, and just building fun things :)
         </p>
 
         <p className="text-muted-foreground leading-relaxed">
@@ -99,7 +99,7 @@ const About = () => {
               <h3 className="text-lg font-medium text-foreground mb-1">
                 Software Engineer Intern at{" "}
                 <a
-                  href="https://www.wonderfil.world/site-partners"
+                  href="https://wonderfil.world/"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="text-accent hover:underline"
