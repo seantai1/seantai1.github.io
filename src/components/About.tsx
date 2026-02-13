@@ -28,20 +28,28 @@ const About = () => {
           <div className="space-y-8">
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-accent mb-1">Today (Dec 2025)</div>
+              <div className="text-sm text-accent mb-1">Today (Feb 2026)</div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Continuing my studies
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                learning! also experimenting & exploring new things.
+                been really interested in alignment research, rl envs, and user agents recently. looking forward to this summer! doing some cool stuff
               </p>
+            </div>
+
+            <div className="pl-6 relative">
+              <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
+              <div className="text-sm text-muted-foreground mb-1">2026 · Berkeley, CA</div>
+              <h3 className="text-lg font-medium text-foreground mb-1">
+                AI Safety Research Fellow at SPAR working on post-training/RL methods for mitigating sycophancy & reward hacking
+              </h3>
             </div>
 
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
               <div className="text-sm text-muted-foreground mb-1">2025 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
-                Researcher at Berkeley RDI working on agents for security
+                Researcher at Berkeley RDI working on agent evals for security patches
               </h3>
             </div>
 
