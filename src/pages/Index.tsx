@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import About from "@/components/About";
 import Music from "@/components/Music";
 import CV from "@/components/CV";
+import Blog from "@/components/Blog";
 import Dialga from "@/components/Dialga";
 
 const Index = () => {
@@ -14,6 +15,8 @@ const Index = () => {
         return <About />;
       case "music":
         return <Music />;
+      case "blog":
+        return <Blog />;
       case "cv":
         return <CV />;
       default:

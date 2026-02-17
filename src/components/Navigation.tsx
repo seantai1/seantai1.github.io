@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface NavigationProps {
@@ -10,6 +9,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
   const tabs = [
     { id: "about", label: "me" },
     { id: "music", label: "music" },
+    { id: "blog", label: "blog" },
     // { id: "cv", label: "cv" },
   ];
 
