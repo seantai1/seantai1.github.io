@@ -61,7 +61,7 @@ const Blog = () => {
       <div>
         <h1 className="text-4xl font-bold mb-4 text-foreground">blog</h1>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          thoughts and things
+          this is for a class btw! (cdss 94: thoughtful ai systems)
         </p>
       </div>
 
