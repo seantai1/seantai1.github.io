@@ -9,6 +9,18 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    id: "doing-ml-research",
+    title: "actually doing ml research",
+    date: "mar 8, 2026",
+    content: [
+      "i'm a few weeks into real ml research now and it's different from what i expected. the biggest surprise is how expensive everything is. training runs, evaluation, even just judging outputs costs real compute. i always heard my friends say they needed more GPUs and now i get it. the compute problem isn't abstract when you're watching your credits burn.",
+      "i knew there would be a lot of reading but i underestimated how much. it feels like more than half my time is spent in papers. i kept wanting to read everything first, show up with a polished experiment idea, and then execute. but that's not how it works. you read as you go, run experiments at a bare minimum level to test the idea, and think about extensions after. the reading isn't prep before the research, it is the research, which I guess makes sense lol.",
+      "claude code has shifted what matters in a weird way. the coding itself doesn't need to be polished anymore, so the hard part is entirely generating good research directions. brainstorm, brainstorm, brainstorm. i've never been great at that, my hackathon ideas have always been pretty mid, and these past few weeks have really tested that. talking to people and getting a diversity of opinions has been one of the best ways to spark something, and being more open and communicative is a real goal of mine now.",
+      "research is also lonely in a way i didn't anticipate. you're sitting with your own thoughts a lot, not coworking or building alongside people the way you do at a startup or a job. it's a different kind of work, slower (?), more uncertain, no instant gratification from shipping something.",
+      "one thing that's been genuinely nice though, everyone in ai safety is incredibly sweet and supportive. the community doesn't feel competitive or gatekeepy the way parts of ml can seem from the outside. that's made the transition easier even when the work itself is hard.",
+    ],
+  },
+  {
     id: "rl-for-language-models",
     title: "rl, feedback, and the optimization target problem",
     date: "feb 12, 2026",
