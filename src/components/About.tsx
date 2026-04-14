@@ -33,7 +33,7 @@ const About = () => {
                 Continuing my studies
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                been really interested in alignment research, rl envs, and user agents recently. looking forward to this summer! doing some cool stuff
+                been really interested in alignment research recently!
               </p>
             </div>
 
@@ -41,7 +41,7 @@ const About = () => {
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
               <div className="text-sm text-muted-foreground mb-1">2026 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
-                AI Safety Research Fellow at SPAR working on post-training/RL methods for mitigating sycophancy & reward hacking
+                Alignment Research Fellow at SPAR working on mitigation methods for reward hacking
               </h3>
             </div>
 

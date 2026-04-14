@@ -9,7 +9,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
   const tabs = [
     { id: "about", label: "me" },
     { id: "music", label: "music" },
-    { id: "blog", label: "blog" },
+    // { id: "blog", label: "blog" },
     // { id: "cv", label: "cv" },
   ];
 
