@@ -28,13 +28,21 @@ const About = () => {
           <div className="space-y-8">
             <div className="pl-6 relative">
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
-              <div className="text-sm text-accent mb-1">Today (Feb 2026)</div>
+              <div className="text-sm text-accent mb-1">Today (Apr 2026)</div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Continuing my studies
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 been really interested in alignment research recently!
               </p>
+            </div>
+
+            <div className="pl-6 relative">
+              <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
+              <div className="text-sm text-muted-foreground mb-1">2026 · San Francisco, CA</div>
+              <h3 className="text-lg font-medium text-foreground mb-1">
+                Software Engineer Intern at Databricks
+              </h3>
             </div>
 
             <div className="pl-6 relative">
