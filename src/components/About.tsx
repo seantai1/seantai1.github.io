@@ -49,7 +49,16 @@ const About = () => {
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
               <div className="text-sm text-muted-foreground mb-1">2026 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
-                Alignment Research Fellow at SPAR working on mitigation methods for reward hacking
+                Alignment Research Fellow at SPAR working on{" "}
+                <a
+                  href="https://sparai.org/projects/sp26/recVrrsdv7Gtv9vXl?search=recontextualization"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-accent hover:underline"
+                >
+                  mitigation methods
+                </a>{" "}
+                for reward hacking
               </h3>
             </div>
 
