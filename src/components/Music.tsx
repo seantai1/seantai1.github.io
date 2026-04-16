@@ -41,7 +41,7 @@ const Music = () => {
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/track/0UOG0zUn7t8m8QcxfzR7AH?utm_source=generator" 
+                  src="https://open.spotify.com/embed/track/4FKRT4uPFx2L4exy9DCs1o?utm_source=generator" 
                   width="100%"
                   height="80"
                   frameBorder="0"
