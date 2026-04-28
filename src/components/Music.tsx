@@ -27,7 +27,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
@@ -37,7 +36,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
@@ -47,7 +45,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
               </div>
             </div>
@@ -64,7 +61,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
@@ -74,7 +70,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
                 <iframe
                   style={{ borderRadius: "12px" }}
@@ -84,7 +79,6 @@ const Music = () => {
                   frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
                 ></iframe>
               </div>
             </div>

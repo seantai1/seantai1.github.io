@@ -3,9 +3,10 @@ import { cn } from "@/lib/utils";
 interface NavigationProps {
   activeTab: string;
   onTabChange: (tab: string) => void;
+  onTabPrefetch?: (tab: string) => void;
 }
 
-const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
+const Navigation = ({ activeTab, onTabChange, onTabPrefetch }: NavigationProps) => {
   const tabs = [
     { id: "about", label: "me" },
     { id: "music", label: "music" },
@@ -19,6 +20,9 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
         <button
           key={tab.id}
           onClick={() => onTabChange(tab.id)}
+          onMouseEnter={() => onTabPrefetch?.(tab.id)}
+          onFocus={() => onTabPrefetch?.(tab.id)}
+          onTouchStart={() => onTabPrefetch?.(tab.id)}
           className={cn(
             "text-lg transition-colors duration-200 hover:text-accent",
             activeTab === tab.id ? "text-accent" : "text-muted-foreground"
