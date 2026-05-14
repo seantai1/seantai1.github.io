@@ -66,7 +66,15 @@ const About = () => {
               <div className="absolute -left-0 top-1 w-3 h-3 bg-accent rounded-full border-2 border-background"></div>
               <div className="text-sm text-muted-foreground mb-1">2025 · Berkeley, CA</div>
               <h3 className="text-lg font-medium text-foreground mb-1">
-                Researcher at Berkeley RDI working on agent evals for security patches
+                Researcher at Berkeley RDI working on agent evals for security patches {" "}
+                <a
+                  href="https://openreview.net/forum?id=tE01L5Oto1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-accent hover:underline"
+                >
+                  [ICML 2026]
+                </a>{" "}
               </h3>
             </div>
 
